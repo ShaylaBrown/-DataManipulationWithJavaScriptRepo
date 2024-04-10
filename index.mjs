@@ -8,6 +8,7 @@ const n4 = 5;
 // This is a fairly simple operation using
 // arithmetic operators and a comparison.
 const isSum50 = (n1 + n2 + n3 + n4) == 50;
+console.log(n1 + n2 + n3 + n4)
 
 // Check two: at least two odd numbers
 // Here, we use modulus to check if something is odd.
