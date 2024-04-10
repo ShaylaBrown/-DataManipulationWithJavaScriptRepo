@@ -15,11 +15,13 @@ console.log(n1 + n2 + n3 + n4)
 // Since % 2 is 0 if even and 1 if odd, we can use
 // arithmetic to count the total number of odd numbers.
 const isTwoOdd = (n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2;
+console.log((n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) )
 
 // Check three: no number larger than 25
 // This time, we use the OR operator to check
 // if ANY of the numbers is larger than 25.
 const isOver25 = n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25;
+console.log(n1 > 25 || n2 > 25 || n3 > 25 || n4 )
 
 // Check four: all unique numbers
 // This is long, and there are more efficient
