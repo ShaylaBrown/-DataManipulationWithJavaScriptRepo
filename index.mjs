@@ -49,8 +49,10 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
 
   //Check if all nubers are divisible by 5
-  const isDivisible = (n1 %5 ) && (n2 %5 ) && (n3 %5 ) && (n4 %5 ) && (n5 %5 )
-  console.log((n1 %5 ) && (n2 %5 ) && (n3 %5 ) && (n4 %5 )&& (n5 %5 ))
+  const isDivisible = (n1 %5 ) && (n2 %5 ) && (n3 %5 ) && (n4 %5 ) 
+  console.log((n1 %5 ) && (n2 %5 ) && (n3 %5 ) && (n4 %5 ))
   const isTrue = isDivisible
   console.log(isDivisible)
    
+  //Check if the first number is larger than the last
+  console.log( n1 > n4 )
