@@ -60,3 +60,7 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   // Accomplish the following arithmetic chain:
   //subtract the first number from the second number
  console.log(n2 - n1) 
+ //multiply the result by the third number
+ console.log(5 * n3)
+ //find the remainder of dividing the result by the fourth number
+ console.log(100 % n4)
